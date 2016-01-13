@@ -1,0 +1,7 @@
+org.ispeech
+org.ispeech.core
+org.ispeech.error
+org.ispeech.marker
+org.ispeech.speex
+org.ispeech.tools
+org.ispeech.viseme

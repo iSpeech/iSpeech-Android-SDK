@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<style>
+body{
+	font-family: arial;
+	margin: 20px;
+}
+
+#title{
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#steps .title{
+	padding-top: 35px;
+	margin: 10px;
+	margin-left: 0px;
+	font-size: 12pt;
+	border-top: solid 2px lightgray;
+
+}
+#steps .description{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 13px;
+}
+
+</style>
+
+<div id="title">iSpeech Android Demo Instructions</div>
+<div id="steps">
+<div class="description">For more information visit: <a href="http://www.ispeech.org/developers/">http://www.ispeech.org/developers/</a><br>
+<br>Requirements: <br>
+<ul>
+  <li>Eclipse IDE</li>
+  <li>ADT plugins</li>
+  <li>Android SDK 2.0 or higher</li>
+  <li>Android Support Library v4</li>
+  <li><b>iSpeech API Key</b>, which can be obtained from <a href="http://www.ispeech.org/developers/">http://www.ispeech.org/developers/</a>.</li>
+</ul>
+
+</div>
+
+<div class="title">Step 1: Download the <b><a href="../iSpeech-SDK-1.3.9-SampleApp.zip">iSpeech-SDK-1.3.9-SampleApp.zip</a></b>
+<br><br>
+</div>
+
+<div class="title">Step 2: Import the <b>iSpeech-SDK-1.3.9-sampleApp</b> Project into Eclipse</div>
+<div class="description">In Eclipse, on the File menu: Click <b>File</b> > <b>Import...</b> > <b>General</b> > <b>Existing Projects into Workspace</b> > <b>Android Project</b></div>
+<img src="./images/step2-import.png"><br><br>
+<div class="description">Click <b>Next</b>, then check the "Select archive file" option and click on "Browse..." to find the zip file.</div>
+<img src="./images/step3-import-zip-archive.png"><br>
+<div class="description">Click <b>Finish</b> to import the <b>iSpeechAndroidDemo</b> Project.</div>
+
+<div class="title">Step 3: Import the android support library.</div>
+<div class="description">Open Android SDK Manager and download the support library</div>
+<img src="./images/support-library.png"><br>
+<div class="description">Drag and drop <sdk-directroy>\extras\android\support\v4\android-support-v4.jar to the libs folder in your project view. Select copy in the box that pops up.</div>
+<img src="./images/support-copy.png"><br>
+
+<div class="title">Step 4: Set the API Key for demo project.</div>
+<div class="description">Double click on the <b>AndroidManifest.xml</b> file. Modify the value of "apikey" metadata to the iSpeech API Key you obtained from <a href="http://www.ispeech.org/developers/">http://www.ispeech.org/developers/</a>.</div>
+<img src="./images/step3-set-apikey-and-server-access.png"><br>
+
+
+<div class="title">Step 5: Run the demo.</div>
+<div class="description">In Eclipse, Click <b>Run</b> > <b>Run As</b> > <b>Android Application</b></div>
+<img src="./images/step4-run.png"><br>
+<div class="description">Select a preferred Android Device. Then click OK.</div>
+<img src="./images/step4-run-application.png"><br><br>
+<img src="./images/step5-run-application.png"><br><br>
+<img src="./images/step6-run-application.png"><br><br>
+</div>
+<br>
+<hr>
+Created on April 20, 2011.  Updated May 26, 2015. <a href="http://www.ispeech.org">iSpeech, Inc.</a>
+</body>
+</html>
