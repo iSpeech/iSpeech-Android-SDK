@@ -25,5 +25,5 @@ Register your own API key at http://www.ispeech.org/developers.
 
 ### Documentation
 
- [iSpeech Android SDK Javadoc](Documentation/index.html "iSpeech Android SDK Javadoc") 
+ [iSpeech Android SDK Javadoc](https://htmlpreview.github.io/?https://github.com/iSpeech/iSpeech-Android-SDK/blob/master/Documentation/index.html "iSpeech Android SDK Javadoc") 
  
