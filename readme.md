@@ -12,7 +12,8 @@ iSpeech Text to Speech (TTS) and Speech Recognition (ASR) SDK for Android lets y
 
 ## Tutorial
  Tutorial for the importing a demo application that runs automated speech recognition (ASR) and TTS.
- [ASR & TTS Demo Application](Instructions/fulldemo.html "ASR & TTS Demo Application") 
+ 
+ [ASR & TTS Demo Application](https://htmlpreview.github.io/?https://github.com/iSpeech/iSpeech-Android-SDK/blob/master/Instructions/fulldemo.html "ASR & TTS Demo Application") 
 
 ### iSpeech Developer API key information
 
